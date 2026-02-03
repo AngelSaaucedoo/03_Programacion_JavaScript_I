@@ -8,13 +8,10 @@ while (isNaN(numero1) || isNaN(numero2)) {
 }
 
 //Calcular suma, resta, multiplicacion y division
-var suma = numero1 + numero2;
-var resta = numero1 - numero2;
-var multiplicacion = numero1 * numero2;
-var division = numero1 / numero2;
+var resultadoCMDsuma =  "La Suma es: " + (numero1 + numero2) + "<br>" +
+ "La resta es: " + (numero1 - numero2) + "<br>" +
+ "La multiplicación es: " + (numero1 * numero2) + "<br>" +
+ "La división es: " + (numero1 / numero2) + "<br>";
 
 document.write("<h2>Resultados de la calculadora:</h2>");
-document.write("Suma: " + suma + "<br>");
-document.write("Resta: " + resta + "<br>");
-document.write("Multiplicación: " + multiplicacion + "<br>");
-document.write("División: " + division + "<br>");
+document.write(resultadoCMDsuma);
