@@ -14,4 +14,4 @@ var resultadoCMDsuma =  "La Suma es: " + (numero1 + numero2) + "<br>" +
  "La división es: " + (numero1 / numero2) + "<br>";
 
 document.write("<h2>Resultados de la calculadora:</h2>");
-document.write(resultadoCMDsuma);
+document.write(resultadoCMDsuma);0
